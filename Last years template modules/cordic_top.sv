@@ -11,7 +11,8 @@
 
 // Do not change this next line
 
-module cordic_top (output logic data_out, output logic [15:0] X, output logic [15:0] Y, input logic [15:0] x,input logic [15:0] y, input logic [15:0] a,input logic [15:0] b,input logic Clk, Reset, Start);
+module cordic_top (output logic data_out, output logic [15:0] X, output logic [15:0] Y, 
+input logic [15:0] x, input logic [15:0] y, input logic [15:0] a, input logic [15:0] b,input logic Clk, Reset, Start);
 
 // Include your top level architecture here
 
