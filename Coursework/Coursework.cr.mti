@@ -1,0 +1,85 @@
+C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/mux.sv {1 {vlog -work work -sv C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/mux.sv
+Model Technology ModelSim PE Student Edition vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module mux
+
+Top level modules:
+	mux
+
+} {} {}} C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_compressor.sv {1 {vlog -work work -sv C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_compressor.sv
+Model Technology ModelSim PE Student Edition vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module tb_compressor
+
+Top level modules:
+	tb_compressor
+
+} {} {}} C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_fa_unclocked.sv {1 {vlog -work work -sv C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_fa_unclocked.sv
+Model Technology ModelSim PE Student Edition vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module tb_fa_unclocked
+
+Top level modules:
+	tb_fa_unclocked
+
+} {} {}} C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/cs_fa.sv {1 {vlog -work work -sv C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/cs_fa.sv
+Model Technology ModelSim PE Student Edition vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module cs_fa
+
+Top level modules:
+	cs_fa
+
+} {} {}} C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/compressor.sv {1 {vlog -work work -sv C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/compressor.sv
+Model Technology ModelSim PE Student Edition vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module compressor
+
+Top level modules:
+	compressor
+
+} {} {}} C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_mux.sv {1 {vlog -work work -sv C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_mux.sv
+Model Technology ModelSim PE Student Edition vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module tb_mux
+
+Top level modules:
+	tb_mux
+
+} {} {}} C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CSA_add.sv {1 {vlog -work work -sv C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CSA_add.sv
+Model Technology ModelSim PE Student Edition vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module CSA_add
+
+Top level modules:
+	CSA_add
+
+} {} {}} C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_fa.sv {1 {vlog -work work -sv C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_fa.sv
+Model Technology ModelSim PE Student Edition vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module tb_fa
+
+Top level modules:
+	tb_fa
+
+} {} {}} C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_CSA_add.sv {1 {vlog -work work -sv C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_CSA_add.sv
+Model Technology ModelSim PE Student Edition vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module tb_CSA_add
+
+Top level modules:
+	tb_CSA_add
+
+} {} {}} C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_sgn_detect.sv {1 {vlog -work work -sv C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_sgn_detect.sv
+Model Technology ModelSim PE Student Edition vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module tb_sgn_detect
+
+Top level modules:
+	tb_sgn_detect
+
+} {} {}} C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/fa.sv {1 {vlog -work work -sv C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/fa.sv
+Model Technology ModelSim PE Student Edition vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module fa
+
+Top level modules:
+	fa
+
+} {} {}} C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/sgn_detect.sv {1 {vlog -work work -sv C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/sgn_detect.sv
+Model Technology ModelSim PE Student Edition vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module sgn_detect
+
+Top level modules:
+	sgn_detect
+
+} {} {}}
