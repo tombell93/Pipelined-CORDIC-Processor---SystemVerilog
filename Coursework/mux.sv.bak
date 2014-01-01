@@ -6,8 +6,18 @@
 // Author     : tjb2g11@ecs.soton.ac.uk
 /////////////////////////////////////////////////////////////////////
 
-module mux (input logic a, b, sel, output logic c);
-
-  assign c = sel?a:b;
+module mux (input logic a, b, sel, clk, reset, output logic c);
+  
+  wire c_temp;
+  assign c_temp = sel?b:a;
+  
+  always_ff @(posedge clk or posedge reset) begin 
+    if (reset) begin
+      c <= '0;
+    end
+    else begin
+      c <= c_temp;  
+    end
+  end
 
 endmodule

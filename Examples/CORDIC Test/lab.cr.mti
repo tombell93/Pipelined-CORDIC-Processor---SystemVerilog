@@ -1,0 +1,22 @@
+{C:/Documents and Settings/Kirk Weedman/Desktop/CORDIC Test/cordic_test.v} {1 {vlog -work work -vopt -nocovercells {C:\Documents and Settings\Kirk Weedman\Desktop\CORDIC Test\cordic_test.v}
+Model Technology ModelSim SE vlog 6.4 Compiler 2008.06 Jun 18 2008
+-- Compiling module cordic_test
+
+Top level modules:
+	cordic_test
+
+} {} {}} {C:/Documents and Settings/Kirk Weedman/Desktop/CORDIC Test/cordic.v} {1 {vlog -work work -vopt -nocovercells {C:/Documents and Settings/Kirk Weedman/Desktop/CORDIC Test/cordic.v}
+Model Technology ModelSim SE vlog 6.4 Compiler 2008.06 Jun 18 2008
+-- Compiling module cordic
+
+Top level modules:
+	cordic
+
+} {} {}} {C:/Documents and Settings/Kirk Weedman/Desktop/CORDIC Test/kordic.v} {1 {vlog -work work -vopt -nocovercells {C:/Documents and Settings/Kirk Weedman/Desktop/CORDIC Test/kordic.v}
+Model Technology ModelSim SE vlog 6.4 Compiler 2008.06 Jun 18 2008
+-- Compiling module kordic
+
+Top level modules:
+	kordic
+
+} {} {}}

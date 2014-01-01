@@ -1,0 +1,67 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Documents and Settings\Kirk\Desktop\Desktop\VerilogLab
+T_opt
+Z1 VCIHAE1EhMDH6Q=?V;nAae2
+Z2 04 11 4 work cordic_test fast 0
+Z3 =1-001e90018ef0-49dd00ea-36b-f60
+Z4 o-quiet -auto_acc_if_foreign -work work -L work +acc
+Z5 OE;O;6.4;39
+vcordic
+Z6 IE`L3aX[QMi63^N:h^XBU^3
+Z7 VAFfSnA1TMo_T@@`8LCjX63
+Z8 dC:\Documents and Settings\Kirk Weedman\Desktop\CORDIC Test
+Z9 w1231055227
+Z10 8C:/Documents and Settings/Kirk Weedman/Desktop/CORDIC Test/cordic.v
+Z11 FC:/Documents and Settings/Kirk Weedman/Desktop/CORDIC Test/cordic.v
+L0 25
+Z12 OE;L;6.4;39
+r1
+31
+Z13 o-work work -nocovercells
+Z14 !s100 GUO3UHV>fSW>i<mnbd[ZZ3
+!s85 0
+vcordic_test
+Z15 I^]_2KB:oM^MzoXIABmXSc1
+Z16 VKRH=3;hYWPcF8`2PIZ=zD2
+R8
+Z17 w1239219215
+Z18 8C:/Documents and Settings/Kirk Weedman/Desktop/CORDIC Test/cordic_test.v
+Z19 FC:/Documents and Settings/Kirk Weedman/Desktop/CORDIC Test/cordic_test.v
+L0 3
+R12
+r1
+31
+R13
+Z20 !s100 =R_RNfb3I^ho<a3<SWN6f2
+!s85 0
+vkordic
+Z21 IE_?i9Vb?<ABYN3G2aRA<D3
+Z22 VQcT8Z]O1TE`[k]?hJF;c81
+R8
+Z23 w1239220452
+Z24 8C:/Documents and Settings/Kirk Weedman/Desktop/CORDIC Test/kordic.v
+Z25 FC:/Documents and Settings/Kirk Weedman/Desktop/CORDIC Test/kordic.v
+L0 8
+R12
+r1
+31
+R13
+Z26 !s100 3Zbz8SdKDJjHPiG8Slnee2
+!s85 0
+vMODEL
+Z27 I=^l`cBJki;Tz]:U4F5PDj3
+Z28 VbO<i=[fk596Z=EzKioE;11
+Z29 dC:\Documents and Settings\Kirk\Desktop\KirkShared
+Z30 w1234386629
+Z31 8C:/Documents and Settings/Kirk/Desktop/KirkShared/sample.v
+Z32 FC:/Documents and Settings/Kirk/Desktop/KirkShared/sample.v
+L0 9
+Z33 OV;L;6.3g_p1;37
+r1
+31
+Z34 o-work work -nocovercells -O0
+Z35 n@m@o@d@e@l
+!s85 0

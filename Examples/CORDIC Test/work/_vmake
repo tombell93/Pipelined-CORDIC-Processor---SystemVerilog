@@ -1,0 +1,12 @@
+m255
+K3
+cModel Technology
+vcordic
+Z0 !s91 C:/Documents and Settings/Kirk Weedman/Desktop/CORDIC Test/cordic.v
+Z1 !s90 -reportprogress|300|-work|work|-vopt|-nocovercells|C:/Documents and Settings/Kirk Weedman/Desktop/CORDIC Test/cordic.v|
+vcordic_test
+Z2 !s91 C:\Documents and Settings\Kirk Weedman\Desktop\CORDIC Test\cordic_test.v
+Z3 !s90 -reportprogress|300|-work|work|-vopt|-nocovercells|C:\Documents and Settings\Kirk Weedman\Desktop\CORDIC Test\cordic_test.v|
+vkordic
+Z4 !s91 C:/Documents and Settings/Kirk Weedman/Desktop/CORDIC Test/kordic.v
+Z5 !s90 -reportprogress|300|-work|work|-vopt|-nocovercells|C:/Documents and Settings/Kirk Weedman/Desktop/CORDIC Test/kordic.v|

@@ -1,0 +1,19 @@
+
+/////////////////////////////////////////////////////////////////////
+// Design unit: Sign detector
+//            :
+// File name  : sgn_detect.sv
+//            :
+// Author     : tjb2g11@ecs.soton.ac.uk
+/////////////////////////////////////////////////////////////////////
+
+module sgn_detect(input logic [15:0] VS_in, VC_in, clk,
+               output logic [15:0] VS_shifted, VC_shifted);
+  
+always_ff @(posedge clk) begin
+  VS_shifted <= VS_in << i;
+  VC_shifted <= VC_in << i;
+end
+  
+endmodule
+

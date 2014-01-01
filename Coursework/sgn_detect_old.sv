@@ -1,0 +1,41 @@
+
+/////////////////////////////////////////////////////////////////////
+// Design unit: OLD Sign detector
+//            :
+// File name  : sgn_detect_old.sv
+//            :
+// Author     : tjb2g11@ecs.soton.ac.uk
+/////////////////////////////////////////////////////////////////////
+
+module sgn_detect_old(input logic [15:0] VS, VC,
+               input logic data_in, reset, clk,
+               output logic sgn, data_out);
+  
+logic [15:0] sum;
+logic flag;
+  
+always_ff @(posedge clk or posedge reset) begin
+  if(reset) begin
+    sgn <= 0;
+    data_out <= 0;
+    $display ("Reset");	
+  end
+  else if (data_in) begin
+    sum <= VS + VC;
+    if (sum[15] == 0) begin
+      sgn <= 1;
+    end else begin
+      sgn <= 0;
+    end
+    if(flag) begin
+      data_out <= 1;
+    end
+    flag <= 1;
+  end
+  else begin
+    data_out <= 0;
+  end
+end
+  
+endmodule
+

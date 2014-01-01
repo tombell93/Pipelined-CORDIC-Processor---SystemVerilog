@@ -31,28 +31,31 @@ module tb_CSA_add;
  	  VC_x <= 16'b0000000000000000;
  	  VS_y <= 16'b0000000000000000;
  	  VC_y <= 16'b0000000000000000;
-    add_sub <= 1'b0;
+    add_sub <= 1'b1;
     data_in <= 0;
      	  
  	  #1ns reset <= 1'b1;
  	  #1ns reset <= 1'b0;
  	  
-// 	  #2ns VS_x <= 16'b0000111010011010;
-// 	  VC_x <= 16'b0101010001100101;
-// 	  VS_y <= 16'b0011000000001110;
-// 	  VC_y <= 16'b0101100011100101;
+ 	  #2ns VS_x <= 16'b0000111010011010;
+ 	  VC_x <= 16'b0101010001100101;
+ 	  VS_y <= 16'b0011000000001110;
+ 	  VC_y <= 16'b0101100011100101;
  	  
- 	  #2ns VS_x <= $random;
- 	  VC_x <= $random;
- 	  VS_y <= $random;
- 	  VC_y <= $random;
+// 	  #2ns VS_x <= $random;
+// 	  VC_x <= $random;
+// 	  VS_y <= $random;
+// 	  VC_y <= $random;
 
  	  #10ns data_in <= 1;
  	  
- 	  #50ns if ((VS_x + VC_x + VS_y + VC_y) !== (VS + VC)) begin
+ 	  #50ns if ((VS_x + VC_x - (VS_y + VC_y)) !== (VS + VC)) begin
 		  $display ("Mismatch at time %d",$time);
-		  $display ("Out 1 %d", (VS_x + VC_x + VS_y + VC_y));
-		  $display ("Out 2 %d", (VS + VC));		  
+		  	  
+		  $display ("(VS_x + VC_x - (VS_y + VC_y)) %d", (VS_x + VC_x - (VS_y + VC_y)));
+		  $display ("(VS + VC) %d", (VS + VC));	
+		  $display ("VS %d", VS);	
+		  $display ("VC %d", VC);	
 	  end
  	  
   end

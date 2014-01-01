@@ -12,7 +12,7 @@ logic [15:0] VS, VC;
 logic data_in, reset, clk, sgn, data_out;
 
 // invoke an instance of sgn_detect  
-sgn_detect sgn_det1 (.*);
+sgn_detect sgn_det (.*);
   
 always
   begin
@@ -29,13 +29,18 @@ begin
   clk <= 0;
   #1ns reset <= 0;
   
-  #2ns VS <= 16'b001011000011101;
+  #2ns VS <= 16'b1000001100000000;
+  VC <=      16'b0000000000000001;
+    
+  #6ns data_in <= 1;
+  #7ns data_in <= 0;
+  
+  #8ns VS <= 16'b001011000011101;
   VC <= 16'b0010111100001010;
   
   #6ns data_in <= 1;
+  #7ns data_in <= 0;
   
-  #30ns reset <= 1;
-  #50ns reset <= 0;
   
 
 end
