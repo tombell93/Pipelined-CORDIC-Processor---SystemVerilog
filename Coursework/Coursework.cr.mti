@@ -19,31 +19,34 @@ Model Technology ModelSim PE Student Edition vlog 10.2c Compiler 2013.07 Jul 18 
 Top level modules:
 	tb_compressor
 
+} {} {}} C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC_cell.sv {1 {vlog -work work -sv C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC_cell.sv
+Model Technology ModelSim PE Student Edition vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module CORDIC_cell
+
+Top level modules:
+	CORDIC_cell
+
 } {} {}} C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC.sv {0 {vlog -work work -sv C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC.sv
 Model Technology ModelSim PE Student Edition vlog 10.2c Compiler 2013.07 Jul 18 2013
 -- Compiling module CORDIC
-** Error: C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC.sv(16): 'reset' already declared in this scope (CORDIC).
-** Error: C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC.sv(16): 'clk' already declared in this scope (CORDIC).
-** Error: C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC.sv(21): 'VS_x' already declared in this scope (CORDIC).
-** Error: C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC.sv(21): 'VC_x' already declared in this scope (CORDIC).
-** Error: C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC.sv(21): 'VS_y' already declared in this scope (CORDIC).
-** Error: C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC.sv(21): 'VC_y' already declared in this scope (CORDIC).
-** Error: C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC.sv(22): 'data_in' already declared in this scope (CORDIC).
-** Error: C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC.sv(22): 'reset' already declared in this scope (CORDIC).
-** Error: C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC.sv(22): 'clk' already declared in this scope (CORDIC).
-** Error: C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC.sv(23): 'VS' already declared in this scope (CORDIC).
-** Error: C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC.sv(23): 'VC' already declared in this scope (CORDIC).
-** Error: C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC.sv(24): 'data_out' already declared in this scope (CORDIC).
-** Error: C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC.sv(39): (vlog-2730) Undefined variable: 'start'.
+** Error: C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC.sv(33): 'reset' already declared in this scope (CORDIC).
+** Error: C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC.sv(33): 'clk' already declared in this scope (CORDIC).
+** Error: C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC.sv(38): 'VS_x' already declared in this scope (CORDIC).
+** Error: C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC.sv(38): 'VC_x' already declared in this scope (CORDIC).
+** Error: C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC.sv(38): 'VS_y' already declared in this scope (CORDIC).
+** Error: C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC.sv(38): 'VC_y' already declared in this scope (CORDIC).
+** Error: C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC.sv(39): 'data_in' already declared in this scope (CORDIC).
+** Error: C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC.sv(39): 'reset' already declared in this scope (CORDIC).
+** Error: C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC.sv(39): 'clk' already declared in this scope (CORDIC).
+** Error: C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC.sv(40): 'VS' already declared in this scope (CORDIC).
+** Error: C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC.sv(40): 'VC' already declared in this scope (CORDIC).
+** Error: C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC.sv(41): 'data_out' already declared in this scope (CORDIC).
+** Error: C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC.sv(62): (vlog-2730) Undefined variable: 'VS_z_temp'.
 
-** Error: C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC.sv(41): (vlog-2730) Undefined variable: 'i'.
+** Error: C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC.sv(63): (vlog-2730) Undefined variable: 'VC_z_temp'.
 
-** Error: C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC.sv(49): near "endcase": syntax error, unexpected endcase
-** Error: C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC.sv(57): (vlog-2730) Undefined variable: 'i'.
 
-** Error: C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC.sv(73): near "endmodule": syntax error, unexpected endmodule, expecting class
-
-} {4.0 17.0 18.0 19.0 20.0 22.0 23.0 24.0} {}} C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/compressor.sv {1 {vlog -work work -sv C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/compressor.sv
+} {4.0 17.0 18.0 19.0} {}} C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/compressor.sv {1 {vlog -work work -sv C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/compressor.sv
 Model Technology ModelSim PE Student Edition vlog 10.2c Compiler 2013.07 Jul 18 2013
 -- Compiling module compressor
 
@@ -98,5 +101,12 @@ Model Technology ModelSim PE Student Edition vlog 10.2c Compiler 2013.07 Jul 18 
 
 Top level modules:
 	sgn_detect
+
+} {} {}} C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/sgn_detect_comb.sv {1 {vlog -work work -sv C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/sgn_detect_comb.sv
+Model Technology ModelSim PE Student Edition vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module sgn_detect_comb
+
+Top level modules:
+	sgn_detect_comb
 
 } {} {}}

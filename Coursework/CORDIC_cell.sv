@@ -1,0 +1,47 @@
+/////////////////////////////////////////////////////////////////////
+// Design unit: CORDIC Cell
+//            :
+// File name  : CORDIC_cell.sv
+//            :
+// Author     : tjb2g11@ecs.soton.ac.uk
+/////////////////////////////////////////////////////////////////////
+
+//module CSA_add_sgn(
+//    input logic [15:0] VS_x, input logic [15:0] VC_x, input logic [15:0] VS_y, input logic [15:0] VC_y, input logic clk, reset, data_in,
+//    output logic [15:0] VC, output logic [15:0] VS, output logic data_out);
+
+module CORDIC_cell(
+    input logic clk, reset,
+    input logic [3:0] n,
+    input logic [15:0] VC_x_in, 
+    input logic [15:0] VS_x_in, 
+    input logic [15:0] VC_y_in, 
+    input logic [15:0] VS_y_in, 
+    input logic [15:0] VC_z_in, 
+    input logic [15:0] VS_z_in,
+    input logic [15:0] VC_LUT, 
+    input logic [15:0] VS_LUT,
+    output logic [15:0] VC_x_out, 
+    output logic [15:0] VS_x_out, 
+    output logic [15:0] VC_y_out, 
+    output logic [15:0] VS_y_out, 
+    output logic [15:0] VC_z_out, 
+    output logic [15:0] VS_z_out);
+    
+logic [15:0] VC_x_shifted;
+logic [15:0] VS_x_shifted;
+logic [15:0] VC_y_shifted;
+logic [15:0] VS_y_shifted;
+
+assign VC_x_shifted = $signed(VC_x_in) >>> n;
+assign VS_x_shifted = $signed(VS_x_in) >>> n;
+assign VC_y_shifted = $signed(VC_y_in) >>> n;
+assign VS_y_shifted = $signed(VS_y_in) >>> n;
+
+CSA_add_sgn csa1(VC_x_in, VS_x_in, VC_y_shifted, VS_y_shifted, clk, reset, data_in, VC_x_out, VS_x_out, data_out);
+CSA_add_sgn csa2(VC_x_shifted, VS_x_shifted, VC_y_in, VS_y_in, clk, reset, data_in, VC_y_out, VS_y_out, data_out);
+CSA_add_sgn csa3(VC_z_in, VS_y_in, VC_LUT, VS_LUT, clk, reset, data_in, VC_z_out, VS_z_out, data_out);
+  
+endmodule
+
+

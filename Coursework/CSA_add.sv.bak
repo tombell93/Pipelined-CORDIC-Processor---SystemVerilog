@@ -6,10 +6,7 @@
 // Author     : tjb2g11@ecs.soton.ac.uk
 /////////////////////////////////////////////////////////////////////
 
-module CSA_add(input logic [15:0] VS_x, VC_x, VS_y, VC_y,
-               input logic add_sub, data_in, reset, clk,
-               output logic [15:0] VS, VC,
-               output logic data_out);
+module CSA_add(output logic data_out, output logic [15:0] VC, output logic [15:0] VS, input logic [15:0] VS_x, input logic [15:0] VC_x, input logic [15:0] VS_y, input logic [15:0] VC_y, input logic clk, reset, add_sub, data_in);
 
   //compressor (input logic VS_x, VC_x, VS_y, VC_y, cin, add_sub, clk, reset, output logic VC, VS, cout);
   
@@ -27,7 +24,7 @@ module CSA_add(input logic [15:0] VS_x, VC_x, VS_y, VC_y,
       data_out <= 1;
       VS <= VS_temp;
       VC <= VC_temp;
-      VC[0] <= 1'b0;
+      VC[0] <= add_sub;
     end
     else begin
       data_out <= 0;

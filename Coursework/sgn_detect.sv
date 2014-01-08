@@ -6,10 +6,10 @@
 // Author     : tjb2g11@ecs.soton.ac.uk
 /////////////////////////////////////////////////////////////////////
 
-module sgn_detect(input logic [15:0] VS, VC,
-               input logic data_in, reset, clk,
-               output logic sgn, data_out);
+// Do not change this next line
 
+module sgn_detect(output logic data_out, output logic sgn, input logic [15:0] VS, input logic [15:0] VC, input logic clk, reset, data_in);
+  
 logic p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15;
 logic g0, g1, g2, g3, g4, g5, g6, g7, g8, g9, g10, g11, g12, g13, g14, g15;
 logic k0, k1, k2, k3, k4, k5, k6, k7, k8, k9, k10, k11, k12, k13, k14, k15;

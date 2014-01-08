@@ -1,20 +1,22 @@
+
 /////////////////////////////////////////////////////////////////////
-// Design unit: Sign detector
+// Design unit: Sign detector without latch
 //            :
-// File name  : sgn_detect.sv
+// File name  : sgn_detect_comb.sv
 //            :
 // Author     : tjb2g11@ecs.soton.ac.uk
 /////////////////////////////////////////////////////////////////////
 
 // Do not change this next line
 
-module sgn_detect(output logic data_out, output logic sgn, input logic [15:0] VS, input logic [15:0] VC, input logic clk, reset, data_in);
+module sgn_detect_comb(output logic sgn, input logic [15:0] VS, input logic [15:0] VC);
+  
 logic p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15;
 logic g0, g1, g2, g3, g4, g5, g6, g7, g8, g9, g10, g11, g12, g13, g14, g15;
 logic k0, k1, k2, k3, k4, k5, k6, k7, k8, k9, k10, k11, k12, k13, k14, k15;
 logic sgn1, sgn2, sgn3, sgn4;
 logic control1, control2, control3;
-logic out1, out2, sgn_temp;
+logic out1, out2;
 logic state, next_state;
 assign p0 = VS[0] | VC[0];
 assign p1 = VS[1] | VC[1];
@@ -74,28 +76,11 @@ assign sgn1 = p3&p2&p1&p0 | p3&p2&p1&k0 | p3&p2&k1 | p3&k2 | k3;
 assign control3 = p15&p14&p13&p12;
 assign control2 = p11&p10&p9&p8;
 assign control1 = p7&p6&p5&p4;
-  
-always_ff @(posedge clk or posedge reset) begin
-  if(reset) begin
-    sgn <= 0;
-    data_out <= 0;
-    state <= 1'b0;
-    next_state <= 1'b0;
-  end
-  else if (data_in) begin
-    sgn <= sgn_temp;
-    data_out <= 1;
-  end
-  else begin
-    data_out <= 0;
-    state <= 1'b0;
-  end
-  state <= next_state;
-end
 
 // mux (input logic a, b, sel, clk, reset, output logic c)
 mux mux1 (sgn2, sgn1, control1, out1);
 mux mux2 (sgn3, out1, control2, out2);
-mux mux3 (sgn4, out2, control3, sgn_temp);
+mux mux3 (sgn4, out2, control3, sgn);
   
 endmodule
+

@@ -1,16 +1,20 @@
 /////////////////////////////////////////////////////////////////////
-// Design unit: Carry-save adder
+// Design unit: Carry-save adder with sign detection
 //            :
-// File name  : CSA_add.sv
+// File name  : CSA_add_sgn.sv
 //            :
 // Author     : tjb2g11@ecs.soton.ac.uk
 /////////////////////////////////////////////////////////////////////
 
-module CSA_add(output logic data_out, output logic [15:0] VC, output logic [15:0] VS, input logic [15:0] VS_x, input logic [15:0] VC_x, input logic [15:0] VS_y, input logic [15:0] VC_y, input logic clk, reset, add_sub, data_in);
+module CSA_add_sgn(
+    input logic [15:0] VS_x, input logic [15:0] VC_x, input logic [15:0] VS_y, input logic [15:0] VC_y, input logic clk, reset, data_in,
+    output logic data_out, output logic [15:0] VC, output logic [15:0] VS);
 
-  wire cin_1, vc_last, zero;
+  wire cin_1, vc_last, zero, add_sub;
   wire [15:0] carry, VS_temp, VC_temp;
   assign zero = 0;
+  
+  sgn_detect_comb sign_detector(add_sub, VS_y, VC_y);
   
   always_ff @(posedge clk or posedge reset) begin 
     if(reset) begin
@@ -30,7 +34,7 @@ module CSA_add(output logic data_out, output logic [15:0] VC, output logic [15:0
       VC <= 16'b0000000000000000;
     end
   end
-  
+    
   compressor c1  (VS_x[0],  VC_x[0],  VS_y[0],  VC_y[0],  add_sub,   add_sub, VC_temp[1],  VS_temp[0],  carry[0]);
   compressor c2  (VS_x[1],  VC_x[1],  VS_y[1],  VC_y[1],  carry[0],  add_sub, VC_temp[2],  VS_temp[1],  carry[1]);
   compressor c3  (VS_x[2],  VC_x[2],  VS_y[2],  VC_y[2],  carry[1],  add_sub, VC_temp[3],  VS_temp[2],  carry[2]);

@@ -31,6 +31,30 @@ Z15 !s107 C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/compress
 !i10b 1
 !s85 0
 !s101 -O0
+vCORDIC_cell
+R1
+!s110 1389222015
+!i10b 1
+!s100 @NoeDIGgbQjLAAeoVIh2o2
+IDFEYe9J<>mVcPKk76bF2_0
+R4
+!s105 CORDIC_cell_sv_unit
+S1
+R6
+w1389222012
+8C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC_cell.sv
+FC:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC_cell.sv
+L0 13
+R10
+r1
+!s85 0
+31
+!s108 1389222015.753000
+!s107 C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC_cell.sv|
+!s90 -reportprogress|300|-work|work|-sv|C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CORDIC_cell.sv|
+!s101 -O0
+R12
+n@c@o@r@d@i@c_cell
 vcs_fa
 R1
 Z16 !s100 01if?3GhKGI?O44<CfRA70
@@ -56,24 +80,24 @@ Z25 !s107 C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/cs_fa.sv
 !s101 -O0
 vCSA_add
 R1
-Z26 !s110 1389036327
-Z27 !s100 E=kCPWSlk_3^?dhCoeH@P0
-Z28 IBCNP40elG79CHCc9YzYR=1
+Z26 ILd_R2@gacUQ2EDUhI@4_X1
 R4
-Z29 !s105 CSA_add_sv_unit
+Z27 !s105 CSA_add_sv_unit
 S1
 R6
-Z30 w1388419241
-Z31 8C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CSA_add.sv
-Z32 FC:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CSA_add.sv
+Z28 w1389210894
+Z29 8C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CSA_add.sv
+Z30 FC:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CSA_add.sv
 L0 9
 R10
 r1
 31
-Z33 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CSA_add.sv|
+Z31 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CSA_add.sv|
 R12
-Z34 n@c@s@a_add
-Z35 !s108 1389036327.519000
+Z32 n@c@s@a_add
+Z33 !s110 1389210902
+Z34 !s100 `bN5lkH7zHhC`bz@5@FaW2
+Z35 !s108 1389210901.972000
 Z36 !s107 C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CSA_add.sv|
 !i10b 1
 !s85 0
@@ -102,281 +126,328 @@ Z47 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Tom/Desktop/DigitalSystemDe
 !i10b 1
 !s85 0
 !s101 -O0
-vfa
+vCSA_add_sgn
 R1
-Z48 !s100 m^m_^YzV8oUJblh[dDA;:2
-Z49 IcBmP7[3QLn5d86gEM4@:b3
+Z48 Idd]F45<6L^K2]P@VFPNhh2
 R4
-Z50 !s105 fa_sv_unit
 S1
 R6
-Z51 w1388416662
-Z52 8C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/fa.sv
-Z53 FC:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/fa.sv
+Z49 w1389216180
+Z50 8C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CSA_add_sgn.sv
+Z51 FC:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CSA_add_sgn.sv
 L0 9
 R10
 r1
 31
-Z54 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/fa.sv|
 R12
-R26
-Z55 !s108 1389036326.818000
-Z56 !s107 C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/fa.sv|
+Z52 n@c@s@a_add_sgn
+Z53 !s110 1389216656
+Z54 !s100 JRH=:W@imU9D@DDD8oceC1
+Z55 !s105 CSA_add_sgn_sv_unit
+Z56 !s108 1389216656.849000
+Z57 !s107 C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CSA_add_sgn.sv|
+Z58 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/CSA_add_sgn.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vfa
+R1
+Z59 !s100 m^m_^YzV8oUJblh[dDA;:2
+Z60 IcBmP7[3QLn5d86gEM4@:b3
+R4
+Z61 !s105 fa_sv_unit
+S1
+R6
+Z62 w1388416662
+Z63 8C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/fa.sv
+Z64 FC:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/fa.sv
+L0 9
+R10
+r1
+31
+Z65 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/fa.sv|
+R12
+Z66 !s110 1389036327
+Z67 !s108 1389036326.818000
+Z68 !s107 C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/fa.sv|
 !i10b 1
 !s85 0
 !s101 -O0
 vfa_old
 R1
-Z57 !s100 z3=33;eG^Xhh>ZR1[k;OL3
-Z58 I4j5[ZEIc^29fV7Yf3VBIF1
+Z69 !s100 z3=33;eG^Xhh>ZR1[k;OL3
+Z70 I4j5[ZEIc^29fV7Yf3VBIF1
 R4
-Z59 !s105 fa_old_sv_unit
+Z71 !s105 fa_old_sv_unit
 S1
 R6
-Z60 w1388416606
-Z61 8C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/fa_old.sv
-Z62 FC:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/fa_old.sv
+Z72 w1388416606
+Z73 8C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/fa_old.sv
+Z74 FC:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/fa_old.sv
 L0 10
 R10
 r1
 31
-Z63 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/fa_old.sv|
+Z75 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/fa_old.sv|
 R12
-Z64 !s110 1388416667
-Z65 !s108 1388416667.670000
-Z66 !s107 C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/fa_old.sv|
+Z76 !s110 1388416667
+Z77 !s108 1388416667.670000
+Z78 !s107 C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/fa_old.sv|
 !i10b 1
 !s85 0
 !s101 -O0
 vmux
 R1
-R26
-Z67 !s100 IhY8185R76ZSV@<5NHKFe1
-Z68 IThCNh;UA@9=BP]GYO]1D^1
+R66
+Z79 !s100 IhY8185R76ZSV@<5NHKFe1
+Z80 IThCNh;UA@9=BP]GYO]1D^1
 R4
-Z69 !s105 mux_sv_unit
+Z81 !s105 mux_sv_unit
 S1
 R6
-Z70 w1388405803
-Z71 8C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/mux.sv
-Z72 FC:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/mux.sv
+Z82 w1388405803
+Z83 8C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/mux.sv
+Z84 FC:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/mux.sv
 L0 9
 R10
 r1
 31
-Z73 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/mux.sv|
+Z85 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/mux.sv|
 R12
-Z74 !s108 1389036327.741000
-Z75 !s107 C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/mux.sv|
+Z86 !s108 1389036327.741000
+Z87 !s107 C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/mux.sv|
 !i10b 1
 !s85 0
 !s101 -O0
 vsgn_detect
 R1
-R13
-Z76 !s100 =K3Hzz`jlI:dl7gUbd07L3
-Z77 IeGLW?S8YHjh<^cY?6`T9]2
+Z88 I[jV^2zZB@ZaHNb>N4HP<90
 R4
-Z78 !s105 sgn_detect_sv_unit
+Z89 !s105 sgn_detect_sv_unit
 S1
 R6
-Z79 w1388415410
-Z80 8C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/sgn_detect.sv
-Z81 FC:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/sgn_detect.sv
-L0 9
+Z90 w1389211267
+Z91 8C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/sgn_detect.sv
+Z92 FC:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/sgn_detect.sv
+L0 11
 R10
 r1
 31
-Z82 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/sgn_detect.sv|
+Z93 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/sgn_detect.sv|
 R12
-Z83 !s108 1389036328.640000
-Z84 !s107 C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/sgn_detect.sv|
+Z94 !s110 1389216654
+Z95 !s100 CAGzn^FO9c0>id;9TLbdS1
+Z96 !s108 1389216654.368000
+Z97 !s107 C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/sgn_detect.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vsgn_detect_comb
+R1
+Z98 IM>IjccbK6;3BgFecAL5:o3
+R4
+S1
+R6
+Z99 w1389211433
+Z100 8C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/sgn_detect_comb.sv
+Z101 FC:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/sgn_detect_comb.sv
+L0 12
+R10
+r1
+31
+R12
+Z102 !s110 1389216183
+Z103 !s100 L3DnN;AZjj6m073ioGOXa3
+Z104 !s105 sgn_detect_comb_sv_unit
+Z105 !s108 1389216183.898000
+Z106 !s107 C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/sgn_detect_comb.sv|
+Z107 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/sgn_detect_comb.sv|
 !i10b 1
 !s85 0
 !s101 -O0
 vsgn_detect_old
 R1
-Z85 !s100 zcTWKTkeO1Y[C0=1<oH`L0
-Z86 IoMb2D5:2HoolCo?g?Gdjn2
+Z108 !s100 zcTWKTkeO1Y[C0=1<oH`L0
+Z109 IoMb2D5:2HoolCo?g?Gdjn2
 R4
-Z87 !s105 sgn_detect_old_sv_unit
+Z110 !s105 sgn_detect_old_sv_unit
 S1
 R6
-Z88 w1388407792
-Z89 8C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/sgn_detect_old.sv
-Z90 FC:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/sgn_detect_old.sv
+Z111 w1388407792
+Z112 8C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/sgn_detect_old.sv
+Z113 FC:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/sgn_detect_old.sv
 L0 10
 R10
 r1
 31
-Z91 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/sgn_detect_old.sv|
+Z114 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/sgn_detect_old.sv|
 R12
-Z92 !s110 1388408057
-Z93 !s108 1388408057.397000
-Z94 !s107 C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/sgn_detect_old.sv|
+Z115 !s110 1388408057
+Z116 !s108 1388408057.397000
+Z117 !s107 C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/sgn_detect_old.sv|
 !i10b 1
 !s85 0
 !s101 -O0
 vtb_compressor
 R1
-Z95 !s100 5B1KGl>4[Y9E[ZO6G8OT42
-Z96 IE7YVKjP_HX3=WD^FToEma0
+Z118 !s100 5B1KGl>4[Y9E[ZO6G8OT42
+Z119 IE7YVKjP_HX3=WD^FToEma0
 R4
-Z97 !s105 tb_compressor_sv_unit
+Z120 !s105 tb_compressor_sv_unit
 S1
 R6
-Z98 w1388142696
-Z99 8C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_compressor.sv
-Z100 FC:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_compressor.sv
+Z121 w1388142696
+Z122 8C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_compressor.sv
+Z123 FC:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_compressor.sv
 L0 10
 R10
 r1
 31
-Z101 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_compressor.sv|
+Z124 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_compressor.sv|
 R12
-Z102 !s110 1389036329
+Z125 !s110 1389036329
+Z126 !s108 1389036329.113000
+Z127 !s107 C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_compressor.sv|
 !i10b 1
 !s85 0
-Z103 !s108 1389036329.113000
-Z104 !s107 C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_compressor.sv|
 !s101 -O0
 vtb_CORDIC
 R1
-R102
-!i10b 1
-Z105 !s100 ?aA[FzFKiH4bb4kUGiT231
-Z106 I@VndNVPS]nE3aB:E0RbHM0
+R125
+Z128 !s100 ?aA[FzFKiH4bb4kUGiT231
+Z129 I@VndNVPS]nE3aB:E0RbHM0
 R4
-Z107 !s105 tb_CORDIC_sv_unit
+Z130 !s105 tb_CORDIC_sv_unit
 S1
 R6
-Z108 w1388178822
-Z109 8C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_CORDIC.sv
-Z110 FC:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_CORDIC.sv
+Z131 w1388178822
+Z132 8C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_CORDIC.sv
+Z133 FC:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_CORDIC.sv
 L0 9
 R10
 r1
-!s85 0
 31
-!s108 1389036329.439000
-!s107 C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_CORDIC.sv|
-Z111 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_CORDIC.sv|
-!s101 -O0
+Z134 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_CORDIC.sv|
 R12
-Z112 ntb_@c@o@r@d@i@c
+Z135 ntb_@c@o@r@d@i@c
+Z136 !s108 1389036329.439000
+Z137 !s107 C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_CORDIC.sv|
+!i10b 1
+!s85 0
+!s101 -O0
 vtb_CSA_add
 R1
 R13
-Z113 !s100 L6O`2nc24OO`>mdTMoDTD0
-Z114 I5oXDg@aZ`hzCWC6oX^<Z^3
+Z138 !s100 L6O`2nc24OO`>mdTMoDTD0
+Z139 I5oXDg@aZ`hzCWC6oX^<Z^3
 R4
-Z115 !s105 tb_CSA_add_sv_unit
+Z140 !s105 tb_CSA_add_sv_unit
 S1
 R6
-Z116 w1388419042
-Z117 8C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_CSA_add.sv
-Z118 FC:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_CSA_add.sv
+Z141 w1388419042
+Z142 8C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_CSA_add.sv
+Z143 FC:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_CSA_add.sv
 L0 9
 R10
 r1
 31
-Z119 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_CSA_add.sv|
+Z144 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_CSA_add.sv|
 R12
-Z120 ntb_@c@s@a_add
-Z121 !s108 1389036328.490000
-Z122 !s107 C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_CSA_add.sv|
+Z145 ntb_@c@s@a_add
+Z146 !s108 1389036328.490000
+Z147 !s107 C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_CSA_add.sv|
 !i10b 1
 !s85 0
 !s101 -O0
 vtb_fa
 R1
-R26
-Z123 !s100 QD=fga9oEY`Q>fgEKXf8D3
-Z124 IoN>=4HTl4C]gedFncFHeS3
+R66
+Z148 !s100 QD=fga9oEY`Q>fgEKXf8D3
+Z149 IoN>=4HTl4C]gedFncFHeS3
 R4
-Z125 !s105 tb_fa_sv_unit
+Z150 !s105 tb_fa_sv_unit
 S1
 R6
-Z126 w1388139282
-Z127 8C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_fa.sv
-Z128 FC:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_fa.sv
+Z151 w1388139282
+Z152 8C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_fa.sv
+Z153 FC:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_fa.sv
 L0 9
 R10
 r1
 31
-Z129 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_fa.sv|
+Z154 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_fa.sv|
 R12
-Z130 !s108 1389036327.244000
-Z131 !s107 C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_fa.sv|
+Z155 !s108 1389036327.244000
+Z156 !s107 C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_fa.sv|
 !i10b 1
 !s85 0
 !s101 -O0
 vtb_fa_unclocked
 R1
-Z132 !s110 1388407726
-Z133 !s100 8[llz4]EGD3QcQF<^ibWF1
-Z134 IGEA9oR_]@:4Se@O]S8>UK2
+Z157 !s110 1388407726
+Z158 !s100 8[llz4]EGD3QcQF<^ibWF1
+Z159 IGEA9oR_]@:4Se@O]S8>UK2
 R4
-Z135 !s105 tb_fa_unclocked_sv_unit
+Z160 !s105 tb_fa_unclocked_sv_unit
 S1
 R6
-Z136 w1388136982
-Z137 8C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_fa_unclocked.sv
-Z138 FC:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_fa_unclocked.sv
+Z161 w1388136982
+Z162 8C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_fa_unclocked.sv
+Z163 FC:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_fa_unclocked.sv
 L0 10
 R10
 r1
 31
-Z139 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_fa_unclocked.sv|
+Z164 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_fa_unclocked.sv|
 R12
-Z140 !s108 1388407726.374000
-Z141 !s107 C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_fa_unclocked.sv|
+Z165 !s108 1388407726.374000
+Z166 !s107 C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_fa_unclocked.sv|
 !i10b 1
 !s85 0
 !s101 -O0
 vtb_mux
 R1
-R26
-Z142 !s100 ZO;3g0CGaA8lhaBGZaT<;0
-Z143 IO]fGEghO>7MgSH]4eUAXC0
+R66
+Z167 !s100 ZO;3g0CGaA8lhaBGZaT<;0
+Z168 IO]fGEghO>7MgSH]4eUAXC0
 R4
-Z144 !s105 tb_mux_sv_unit
+Z169 !s105 tb_mux_sv_unit
 S1
 R6
-Z145 w1387637170
-Z146 8C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_mux.sv
-Z147 FC:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_mux.sv
+Z170 w1387637170
+Z171 8C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_mux.sv
+Z172 FC:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_mux.sv
 L0 10
 R10
 r1
 31
-Z148 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_mux.sv|
+Z173 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_mux.sv|
 R12
-Z149 !s108 1389036327.851000
-Z150 !s107 C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_mux.sv|
+Z174 !s108 1389036327.851000
+Z175 !s107 C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_mux.sv|
 !i10b 1
 !s85 0
 !s101 -O0
 vtb_sgn_detect
 R1
 R13
-Z151 !s100 W`^[5W95855=C=F_PL2H;1
-Z152 IY1KW7:K:^X8Z6RcJ7]>NA0
+Z176 !s100 W`^[5W95855=C=F_PL2H;1
+Z177 IY1KW7:K:^X8Z6RcJ7]>NA0
 R4
-Z153 !s105 tb_sgn_detect_sv_unit
+Z178 !s105 tb_sgn_detect_sv_unit
 S1
 R6
-Z154 w1388415874
-Z155 8C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_sgn_detect.sv
-Z156 FC:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_sgn_detect.sv
+Z179 w1388415874
+Z180 8C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_sgn_detect.sv
+Z181 FC:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_sgn_detect.sv
 L0 9
 R10
 r1
 31
-Z157 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_sgn_detect.sv|
+Z182 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_sgn_detect.sv|
 R12
-Z158 !s108 1389036328.836000
-Z159 !s107 C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_sgn_detect.sv|
+Z183 !s108 1389036328.836000
+Z184 !s107 C:/Users/Tom/Desktop/DigitalSystemDesignCoursework/Coursework/tb_sgn_detect.sv|
 !i10b 1
 !s85 0
 !s101 -O0
@@ -385,20 +456,20 @@ R1
 R4
 r1
 31
-Z160 IHkIm^iK<?e9[XaZOOP2VI3
+Z185 IHkIm^iK<?e9[XaZOOP2VI3
 S1
 R6
-Z161 w1387542607
-Z162 8C:\Users\Tom\Desktop\DigitalSystemDesignCoursework\Coursework\tb_fa.sv
-Z163 FC:\Users\Tom\Desktop\DigitalSystemDesignCoursework\Coursework\tb_fa.sv
+Z186 w1387542607
+Z187 8C:\Users\Tom\Desktop\DigitalSystemDesignCoursework\Coursework\tb_fa.sv
+Z188 FC:\Users\Tom\Desktop\DigitalSystemDesignCoursework\Coursework\tb_fa.sv
 L0 9
 R10
 R12
-R125
-Z164 !s107 C:\Users\Tom\Desktop\DigitalSystemDesignCoursework\Coursework\tb_fa.sv|
-Z165 !s90 -reportprogress|300|-work|work|-sv|C:\Users\Tom\Desktop\DigitalSystemDesignCoursework\Coursework\tb_fa.sv|
-Z166 !s100 fCeDdW19;YD?kOD@d66080
-Z167 !s108 1387542630.064000
+R150
+Z189 !s107 C:\Users\Tom\Desktop\DigitalSystemDesignCoursework\Coursework\tb_fa.sv|
+Z190 !s90 -reportprogress|300|-work|work|-sv|C:\Users\Tom\Desktop\DigitalSystemDesignCoursework\Coursework\tb_fa.sv|
+Z191 !s100 fCeDdW19;YD?kOD@d66080
+Z192 !s108 1387542630.064000
 !i10b 1
 !s85 0
 !s101 -O0
